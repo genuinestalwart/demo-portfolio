@@ -26,15 +26,60 @@ a {
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 .flex-container {
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 175px;
 }
 .flex-container > div {
-    padding: 0 25px 0 80px;
     width: 50%;
 }
-.flex-container img {
+.showoff-img > div {
+    padding: 0 25px 0 80px;
+}
+
+.showoff-img img {
     display: block;
     width: 90%;
+}
+#dream-bg {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+#exp-bg {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+#exp-area {
+    padding: 0 30px;
+}
+.exp-items {
+    border-radius: 5px;
+    box-shadow: 0 0 30px #708090;
+    margin: 0 30px;
+    padding: 0 20px 0 25px;
+}
+.exp-items h2 {
+    color: #4169E1;
+}
+#exp-bg h3 {
+    color: #008B8B;
+}
+#full-stack {
+    border-image: linear-gradient(#FA8072, #FFA07A);
+    border-left: 10px solid;
+    border-image-slice: 1;
+}
+#baby-web {
+    border-image: linear-gradient(#9ACD32, #F0E68C);
+    border-left: 10px solid;
+    border-image-slice: 1;
+}
+footer {
+    margin: 10px 0;
+    text-align: center;
 }
